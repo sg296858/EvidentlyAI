@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/865940723854726110/092feaf731244a5c9f5b771f4f815373/artifacts
+end_time: 1751641926653
+entry_point_name: ''
+experiment_id: '865940723854726110'
+lifecycle_stage: active
+run_id: 092feaf731244a5c9f5b771f4f815373
+run_name: resilient-worm-849
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751641809648
+status: 3
+tags: []
+user_id: LENOVO

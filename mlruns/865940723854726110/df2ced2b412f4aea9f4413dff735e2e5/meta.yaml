@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/865940723854726110/df2ced2b412f4aea9f4413dff735e2e5/artifacts
+end_time: 1751633401333
+entry_point_name: ''
+experiment_id: '865940723854726110'
+lifecycle_stage: active
+run_id: df2ced2b412f4aea9f4413dff735e2e5
+run_name: capable-mule-841
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751633319700
+status: 3
+tags: []
+user_id: LENOVO

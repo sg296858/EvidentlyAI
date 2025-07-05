@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/865940723854726110/2925fff1ce7c4dfe91639acea8cdb29c/artifacts
+end_time: 1751629393740
+entry_point_name: ''
+experiment_id: '865940723854726110'
+lifecycle_stage: active
+run_id: 2925fff1ce7c4dfe91639acea8cdb29c
+run_name: receptive-bear-616
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751629342902
+status: 3
+tags: []
+user_id: LENOVO

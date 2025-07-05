@@ -29,8 +29,8 @@ X_train,X_test,Y_train,Y_test=train_test_split(X,y,test_size=0.2,random_state=11
 
 ##Hyperparameter tuning using Optuna
 def objective(trial):
-    max_depth=trial.suggest_int("max_depth",2,60)
-    n_estimators=trial.suggest_int("n_estimators",10,200)
+    max_depth=trial.suggest_int("max_depth",2,30)
+    n_estimators=trial.suggest_int("n_estimators",10,100)
     
     model=RandomForestClassifier(
         n_estimators=n_estimators,
@@ -80,7 +80,6 @@ with mlflow.start_run():
     report.save_html("iris_drift_report.html")
     mlflow.log_artifact("iris_drift_report.html")
     mlflow.log_artifact(__file__)
-    mlflow.sklearn.log_model(best_model,"RandomForestmodel")
 
     print(accuracy)
     print(study.best_params)
